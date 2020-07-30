@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="calculator_input_result">7*7</string>
+    <string name="calculator_input_outcome">49</string>
+    <string name="key_7">7</string>
+    <string name="key_4">4</string>
+    <string name="key_1">1</string>
+    <string name="key_percent">%</string>
+    <string name="key_8">8</string>
+    <string name="key_5">5</string>
+    <string name="key_2">2</string>
+    <string name="key_0">0</string>
+    <string name="key_9">9</string>
+    <string name="key_6">6</string>
+    <string name="key_3">3</string>
+    <string name="divide_operator">/</string>
+    <string name="minus_operator">-</string>
+    <string name="plus_operator">+</string>
+    <string name="multiply_operator">*</string>
+    <string name="percent_operator">%</string>
+</resources>
