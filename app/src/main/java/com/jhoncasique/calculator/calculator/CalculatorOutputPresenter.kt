@@ -20,6 +20,23 @@ object CalculatorOutputPresenter {
     }
 
     fun addItem(item: String) {
+        when {
+            item.endsWith("+") -> {
+                currentEquation = currentOutcome.plus(item)
+            }
+            item.endsWith("-") -> {
+                currentEquation = currentOutcome.plus(item)
+            }
+            item.endsWith("*") -> {
+                currentEquation = currentOutcome.plus(item)
+            }
+            item.endsWith("/") -> {
+                currentEquation = currentOutcome.plus(item)
+            }
+            item.endsWith("%") -> {
+                currentEquation = currentOutcome.plus(item)
+            }
+        }
         currentEquation = currentEquation.plus(item)
         updateEquation()
         calculateOutcome()
